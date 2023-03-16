@@ -57,7 +57,29 @@
 
 			</div>
 			<div class="right">
-				<p>aaaaa</p>
+				<form id="form" method="POST">
+					<label>nazwa gry</label>
+					<input type="text" placeholder="nazwa gry" name="nazwagry" required>
+					<label>opis</label>
+					<input type="text" placeholder="opis" name="opis" required>
+					<label>wydawca</label>
+					<input type="text" placeholder="nazwa gry" name="nazwagry" required>
+					<label>nazwa gry</label>
+					<input type="text" placeholder="nazwa gry" name="nazwagry" required>
+					<label>nazwa gry</label>
+					<input type="text" placeholder="nazwa gry" name="nazwagry" required>
+					<label>nazwa gry</label>
+					<input type="text" placeholder="nazwa gry" name="nazwagry" required>
+					<label>nazwa gry</label>
+					<input type="text" placeholder="nazwa gry" name="nazwagry" required>
+					<label>nazwa gry</label>
+					<input type="text" placeholder="nazwa gry" name="nazwagry" required>
+					<label>nazwa gry</label>
+					<input type="text" placeholder="nazwa gry" name="nazwagry" required>
+					<label>nazwa gry</label>
+					<input type="text" placeholder="nazwa gry" name="nazwagry" required>
+					<button type="submit">Submit</button>
+	</form>
 			</div>
 		</div>
 		<div class="low">
