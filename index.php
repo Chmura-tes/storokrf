@@ -38,7 +38,7 @@
 				$id_gry = $d['id-gry'];
                 $nazwa = $d['nazwa_gry'];
                 $opis = $d['opis'];
-				$obrazek = $d['link-obrazka'];
+				$obrazek = $d['link_obrazka'];
 				?>
 				<li style="
 				background-image:
@@ -74,7 +74,7 @@
 					<input type="text" name="nazwaproducenta" required> <br>
 
 					<label>obrazek</label>
-					<input type="image" name="linkobrazka" required> <br>
+					<input type="text" name="linkobrazka" required> <br>
 
 					<label>link do strony</label>
 					<input type="text" name="linkstrony"> <br>

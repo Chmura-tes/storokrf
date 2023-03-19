@@ -1,4 +1,4 @@
-$(document).on('submit','#userForm',function(e){
+$(document).on('submit','#form',function(e){
     e.preventDefault();
    
     $.ajax({

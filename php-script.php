@@ -14,7 +14,7 @@ $db=$conn;
    
 if(!empty($nazwagry) && !empty($opis) && !empty($nazwawydawcy) && !empty($nazwaproducenta)){
 
-    Insert_data($nazwagry,$opis,$nazwawydawcy,$nazwaproducenta,$linkobrazka,$linkstrony,$mp,$sp,$data);
+    Insert_data($nazwagry,$opis,$nazwawydawcy,$nazwaproducenta,$linkobrazka,$linkstrony,$mp,$sp,$data,$steam);
 }else{
  echo "All fields are required";
 }
@@ -29,7 +29,7 @@ function legal_input($value) {
  function insert_data($nazwagry,$opis, $nazwawydawcy, $nazwaproducenta, $linkobrazka, $linkstrony, $mp, $sp, $data, $steam){
  
      global $db;
-      $query="INSERT INTO usertable(nazwagry,opis,nazwawydawcy,nazwaproducenta) VALUES('$nazwagry','$opis','$nazwawydawcy','$nazwaproducenta','$linkobrazka','$linkstrony','$mp','$sp','$steam','$data')";
+      $query="INSERT INTO gry(nazwa_gry,opis,wydawca,producent,link_obrazka,link_strony,mp,sp,steam,data) VALUES('$nazwagry','$opis','$nazwawydawcy','$nazwaproducenta','$linkobrazka','$linkstrony','$mp','$sp','$steam','$data')";
      $execute=mysqli_query($db,$query);
      if($execute==true)
      {
